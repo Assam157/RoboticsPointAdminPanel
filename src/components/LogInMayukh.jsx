@@ -26,7 +26,7 @@ const LogInMayukh = () => {
     setSucces(false);
 
     try{
-      const response=await fetch("https://enigmatic-shelf-01881-15c9cb2f80b1.herokuapp.com/LogInMayukh",{
+      const response=await fetch("https://roboticspointbackend-b6b7b2e85bbf.herokuapp.com/LogInMayukh",{
         method:'POST',
         headers:{
           'Content-Type':'application/json',
