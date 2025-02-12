@@ -26,7 +26,7 @@ const LogInMayukh = () => {
     setSucces(false);
 
     try{
-      const response=await fetch("https://roboticspointbackend-b6b7b2e85bbf.herokuapp.com/LogInMayukh",{
+      const response=await fetch("https://darkorchid-tapir-476375.hostingersite.com/LogInMayukh",{
         method:'POST',
         headers:{
           'Content-Type':'application/json',
