@@ -27,7 +27,7 @@ const ProductDelete = () => {
 
         try {
             // Make sure to use DELETE method here
-            const response = await fetch("https://roboticspointbackend-b6b7b2e85bbf.herokuapp.com/delete", {
+            const response = await fetch("https://darkorchid-tapir-476375.hostingersite.com/delete", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
