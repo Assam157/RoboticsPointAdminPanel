@@ -31,7 +31,7 @@ const ProductForm = () => {
         setSuccess(false);
 
         try {
-            const response = await fetch('https://roboticspointbackend-b6b7b2e85bbf.herokuapp.com/submit', {
+            const response = await fetch('https://darkorchid-tapir-476375.hostingersite.com/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
